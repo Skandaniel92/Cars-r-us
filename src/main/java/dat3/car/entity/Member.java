@@ -28,12 +28,12 @@ public class Member {
   private String lastName;
 
   @ElementCollection
-  List<String> favoriteCarColors = new ArrayList<>();
+  private List<String> favoriteCarColors = new ArrayList<>();
 
   @ElementCollection
   @MapKeyColumn(name = "description")
   @Column(name = "phone_number")
-  Map<String,String> phones = new HashMap<>();
+  private Map<String,String> phones = new HashMap<>();
 
 
   private String street;
