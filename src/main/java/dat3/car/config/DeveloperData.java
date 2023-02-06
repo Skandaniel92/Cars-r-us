@@ -38,7 +38,7 @@ public class DeveloperData implements ApplicationRunner {
     m1.setFavoriteCarColors(Arrays.asList("Green", "Yellow"));
     m1.setPhones(Map.of("Home", "2323", "Work", "123456"));
     m2.setFavoriteCarColors(Arrays.asList("Blue", "Red"));
-    m2.setPhones(Map.of("Home", "4040404", "Work", "80808080"));
+    m2.setPhones(Map.of("Home", "4040404", "Work", "80808080", "Mobile1", "3030"));
 
 
     memberRepository.save(m1);
