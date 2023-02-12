@@ -28,10 +28,6 @@ public class MemberService {
     }
 
 
-
-
-
-
     Member newMember = MemberRequest.getMemberEntity(memberRequest);
     newMember = memberRepository.save(newMember);
 

@@ -1,4 +1,4 @@
-package dat3.car.api;
+package api;
 
 import dat3.car.dto.MemberRequest;
 import dat3.car.dto.MemberResponse;

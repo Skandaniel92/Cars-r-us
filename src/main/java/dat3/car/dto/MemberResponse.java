@@ -3,6 +3,7 @@ package dat3.car.dto;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import dat3.car.entity.Member;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -12,6 +13,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @NoArgsConstructor
+@AllArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class MemberResponse {
   String username; //Remember this is the primary key
