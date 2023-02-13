@@ -27,15 +27,11 @@ public class MemberService {
       throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"Member with this Email already exist");
     }
 
-
     Member newMember = MemberRequest.getMemberEntity(memberRequest);
     newMember = memberRepository.save(newMember);
 
     return new MemberResponse(newMember, false);
   }
-
-
-
 
 
   public List<MemberResponse> getMembers(boolean includeAll) {

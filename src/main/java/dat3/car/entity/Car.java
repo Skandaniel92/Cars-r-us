@@ -31,4 +31,10 @@ public class Car{
     this.pricePrDay = pricePrDay;
     this.bestDiscount = bestDiscount;
   }
+
+  public Car(String brand, String model, double pricePrDay) {
+    this.brand = brand;
+    this.model = model;
+    this.pricePrDay = pricePrDay;
+  }
 }
